@@ -1,0 +1,30 @@
+body {
+    background-image: url('https://martech.org/wp-content/uploads/2014/08/video-tv2-ss-1920-800x450.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+h1 {
+    background-color: hsla(0, 0%, 99%, 0.863);
+}
+
+table {
+    background-color: hsla(0, 0%, 99%, 0.863);
+    width: 90%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 13px;
+}
+
+.center {
+    align-items: center;
+}
+
+.missing {
+    color: red;
+    width: 100%;
+}
