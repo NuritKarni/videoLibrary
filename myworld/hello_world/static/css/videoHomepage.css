@@ -3,22 +3,56 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-
+    margin: 10px;
+	padding: 0;
 }
 
 h1 {
     background-color: hsla(0, 0%, 99%, 0.863);
 }
 
-table {
-    background-color: hsla(0, 0%, 99%, 0.863);
-    width: 90%;
-    border: 1px solid black;
+/* table caption { 
+    background-color: hsla(0, 0%, 99%, 0.863); 
+} */
+
+div.tableContainer {
     margin-left: auto;
     margin-right: auto;
-    text-align: left;
-    font-size: 13px;
+    width: 85%
 }
+
+table, th, td {
+    background-color: hsla(0, 0%, 99%, 0.863);   
+    border: 1px solid black;
+    border-collapse: collapse;    
+    text-align: left;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+table {
+    width:100%;
+}
+
+thead {
+    border: 2px solid black;
+    border-collapse: collapse; 
+    background-color: hsla(0, 82%, 83%, 0.863);
+    position: sticky;
+    top: 0px;
+}
+
+tr:nth-child(even) {
+    background-color: #a3fbfb;
+}
+
+.scrollContent {
+    height: 262px;
+    overflow: auto;
+    width: 100%;
+}
+
 
 .center {
     align-items: center;
